@@ -1,0 +1,43 @@
+.StoryEditor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story_editor_form .form_group {
+    margin-bottom: 15px;
+  }
+  
+  .story-editor-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .story_editor_form input[type="text"],
+  .story_editor_form textarea,
+  .story_editor_form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .story_editor_form button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .story_editor_form button:hover {
+    background-color: #0056b3;
+  }
+  

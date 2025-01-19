@@ -1,0 +1,33 @@
+.CampaignList {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.CampaignList_center >img {
+    height: auto;
+    width: 100%;
+    max-height: 100%;
+}
+
+.CampaignList > div {
+    display: flex;
+}
+
+.CampaignList .CampaignList_left {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.CampaignList .CampaignList_center {
+    height: 398px;
+    width: 50%;
+    justify-content: center;
+}
+
+.CampaignList .CampaignList_right {
+    width: 25%;
+    justify-content: flex-end;
+}
